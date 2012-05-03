@@ -161,6 +161,11 @@ site.
    If you have multiple installed versions of Python on your system, you may need to substitute
    something like ``python2.7`` for ``python``.
 
+With the basic database structure in place, we will load some initial data which is required for the
+site to operate::
+
+    python manage.py loaddata startup.json
+
 Database migrations
 -------------------
 
